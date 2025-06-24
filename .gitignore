@@ -45,3 +45,6 @@ infer-out
 tmp*
 tests/*.unicode
 tests/unicode_test*
+
+.swiftpm
+.idea
