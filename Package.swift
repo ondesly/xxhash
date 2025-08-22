@@ -12,7 +12,9 @@ let package = Package(
         .target(
             name: "xxhash",
             path: "src/xxhash",
-            exclude: ["xxh_x86dispatch.c", "xxh_x86dispatch.h"],
+            sources: [
+                "xxhash.c",
+            ],
             publicHeadersPath: "",
         )
     ]
